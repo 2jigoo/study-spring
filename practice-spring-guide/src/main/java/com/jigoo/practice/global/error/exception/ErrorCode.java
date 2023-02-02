@@ -15,6 +15,11 @@ public enum ErrorCode {
     , METHOD_NOT_ALLOWED(405, "C005", "Method Not Allowed")
     , INTERNAL_SERVER_ERROR(500, "C006", "Internal Server Error")
 
+    // Member
+    , EMAIL_DUPLICATION(400, "M001", "Email is Duplication")
+    , LOGIN_INPUT_VALID(400, "M002", "Login input is invalid")
+
+    // Coupon
 
     ;
 
