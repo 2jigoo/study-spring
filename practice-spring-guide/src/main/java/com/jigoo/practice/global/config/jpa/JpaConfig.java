@@ -13,6 +13,10 @@ import java.util.Optional;
 @EnableJpaAuditing
 public class JpaConfig {
 
+    /**
+     * JPA Audit 기능 활성
+     * @return 인증된 경우 name
+     */
     @Bean
     public AuditorAware<String> auditorProvider() {
         return () -> {
